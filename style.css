@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap')
+
+.cairo-<uniquifier> {
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+*{
+  margin: 0;
+}
+
+body {
+	font-family: Cairo;
+	background: rgb(77, 74, 70);
+	color: white;
+}
+
+h1,h2{
+	background: rgb(28, 28, 28);
+	padding: 35px;
+	margin-bottom: 50px;
+	text-align: center;
+	padding: 25; 
+}
+
+h2 {
+	padding: 0;
+	width: 70%;
+	margin: 20px auto;
+}
+
+h2 span{
+	color: maroon
+}
+
+video {
+	display: block;
+	margin: auto;
+	width: 70%;
+}
+
+.plan-content{
+	width: 90%;
+	margin: 50px auto 20px;
+}
+
+.plan-title{
+        background: black;
+	margin-right: 25px;
+	font-weight: bolder;
+	font-size: 25px;
+}
+
+hr{
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+li {
+  padding: 5px;
+}
+
+a {
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	padding: 10px 5px;
+}
+
+div {
+	text-align: center;
+	/*border: 1px solid red;*/
+}
+
+.plan div,
+.price div,
+.lists ul {
+	width: 33%;
+}
+
+.plan,
+.price,
+.lists {
+	display: flex;
+}
+
+.price{
+	font-size: 25px;
+}
+
+.cost {
+	background: black;
+	margin-left: 20px;
+	padding: 5px 10px;
+}
+
+.fill,h3 {
+	width: 90%;
+	background: maroon;
+	display: inline-block;
+	margin-left: 60px;
+}
+
+h3 {
+	display: block;
+	width: fit-content;
+	margin: 50px auto 20px; 
+}
+
+.fill:hover {
+	background: rgb(143, 31, 31);
+}
+
+
+.whats:hover {
+	text-decoration: underline;
+}

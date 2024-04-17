@@ -1,107 +1,165 @@
-<!DOCTYPE html>
-<html>
-   <head>
-      <meta charset="utf-8">
-      <title></title>
-      <link rel="stylesheet" href="style.css">
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
-   </head>
-   <body lang="ar">
-      <h1>ECOM BLACKER</h1>
-      <h2>
-         خدمة تصميم المتاجر<br>
-         <span>Niche Store</span>
-      </h2>
-      
-      <video width="880" height="500" controls>
-  	<source src="movie.mp4" type="video/mp4">
-  	<source src="movie.ogg" type="video/ogg">
-  	Your browser does not support the video tag.
-      </video>
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap')
 
-      <div>
-         <h2>اختار الخطة المناسبة لك</h2>
-      </div>
-     
-      <section class="plan-content">
-          <div class="card">
-              <h3 class="plan-title">Basic Plan</h3>
-              <ul>
-                  <li>إضافه عدد 1 صفحات بالمتجر</li>
-                  <li>​عمل لوجو مميز خاص بالمتجر</li>
-                  <li>​عدد المنتجات المضافه : 0</li>
-                  <li>​​عدد المراجعات/التعديلات للمتجر بعد التسليم: 1</li>
-                  <li>​​تصميمات سوشيال ميديا: 10 تصميمات</li>
-                  <li>​Custom Content/محتوي مميز للمتجر</li>
-                  <li>​ ​تصميم بطاقه شكر للعميل تصل مع المنتج</li>
-                  <li>​اضافه مقالات للمتجر : 1</li>
-                  <li>​هايلايت للانستجرام​</li>
-                  <li>​​للمنتج Packaging/تصميم تغليف</li>
-                  <li>​​استخدام صور عاليه الجوده</li>
-                  <li>​​استخدام قالب مدفوع</li>
-                  <li>​التسليم في خلال 4 - 8 ايام عمل</li>
-              </ul>
-              <span class="cost">149 $</span>
-              <!--<a href="#">شاهد مثال</a>-->
-          </div>
+.cairo-<uniquifier>
+{
+    font-family: "Cairo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+}
 
-          <div class="card">
-              <h3 class="plan-title">Basic Plan</h3>
-              <ul>
-                  <li>​ إضافه عدد 5 صفحات بالمتجر</li>
-                  <li>​​عمل لوجو مميز خاص بالمتجر</li>
-                  <li>​إضافه منتجات من خلال سيف محمود : 64 منتج</li>
-                  <li>​​عدد المراجعات/التعديلات للمتجر بعد التسليم: 3 </li>
-                  <li>​​​تصميمات سوشيال ميديا: 15 تصميم</li>
-                  <li>​​Custom Content/محتوي مميز للمتجر</li>
-                  <li>​​​تصميم بطاقه شكر للعميل تصل مع المنتج </li>
-                  <li>​​اضافه مقالات للمتجر : 3</li>
-                  <li>​هايلايت للانستجرام​</li>
-                  <li>​​​​للمنتج Packaging/تصميم تغليف</li>
-                  <li>​​​استخدام صور مدفوعه </li>
-                  <li>​​​​استخدام قالب مدفوع</li>
-                  <li>​​​التسليم في خلال 4 - 8 ايام عمل</li>
-                  <li>​​تصميم صفحات المنتجات</li>
-              </ul>
-              <span class="cost">149 $</span>
-              <!--<a href="#">شاهد مثال</a>-->
-          </div>
+* {
+	direction: rtl;
+	font-family: Cairo;
+	margin: 0;
+	padding: 0;
+	background: rgb(47, 47, 47);
+	color: white;
+	box-sizing: border-box;
+	scrolling-behavior: smooth;
+}
 
-          <div class="card">
-              <h3 class="plan-title">Basic Plan</h3>
-              <ul>
-                  <li>​ إضافه عدد 7 صفحات بالمتجر</li>
-                  <li>​​عمل لوجو مميز خاص بالمتجر</li>
-                  <li>إضافه منتجات من خلال سيف محمود : 128 منتج</li>
-                  <li>​عدد المراجعات/التعديلات للمتجر بعد التسليم: 5 </li>
-                  <li>​​تصميمات سوشيال ميديا: 20 تصميم</li>
-                  <li>​​Custom Content/محتوي مميز للمتجر</li>
-                  <li>​​​تصميم بطاقه شكر للعميل تصل مع المنتج</li>
-                  <li>​​اضافه مقالات للمتجر : 3</li>
-                  <li>هايلايت للانستجرام​</li>
-                  <li>​​​​للمنتج Packaging/تصميم تغليف</li>
-                  <li>​​​استخدام صور مدفوعه</li>
-                  <li>​​استخدام قالب مدفوع</li>
-                  <li>​​​التسليم في خلال 4 - 8 ايام عمل</li>
-                  <li>​تصميم صفحات المنتجات</li>
-              </ul>
-              <span class="cost">149 $</span>
-              <!--<a href="#">شاهد مثال</a>-->
-          </div>
-      </section>
+header h1, h2, h3 {
+	background: rgb(28, 28, 28);
+	padding: 35px;
+	margin-bottom: 50px;
+	text-align: center;
+	padding: 25px; 
+}
 
-      <a class="fill" target="_blank" href="https://docs.google.com/forms/d/1xPub2_z2u6dr-DGGwrFowSrNirqNjoblElYSPLWxIa0/prefill?hl=ar">املء الفورم</a>
+h2, h3 {
+	padding: 0;
+	width: 70%;
+	margin: 20px auto;
+}
 
-      <h3>الأسئلة الأكثر شيوعاً</h3>
+h2 span {
+		color: maroon;
+		background: rgb(28, 28, 28);
+	}
 
-      <video controls>
-  	        <source src="movie.mp4" type="video/mp4">
-  	        <source src="movie.ogg" type="video/ogg">
-  	        Your browser does not support the video tag.
-      </video>
+video {
+	display: block;
+	margin: auto;
+	width: 70%;
+}
 
-      <a class="whats" target="_blank" href="https://wa.me/201005439519"><img src="Whats.png" width=40 height=40><br>فريق الدعم</a>
-   </body>
-</html>
+
+.plan-content {
+	width: 90%;
+	margin: 50px auto 20px;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+}
+
+.card {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.plan-title {
+	width: 95%;
+	background: black;
+	font-weight: bolder;
+	font-size: 1.5em;
+}
+
+ul {
+	margin: auto;
+	width: 95%;
+	height: 100%;
+	list-style-type: none;
+	text-align: right;
+}
+
+li {
+  padding: 5px;
+}
+
+.cost {
+	width: 90%;
+	font-size: 1em;
+	background: black;
+	margin: auto;
+	padding: 5px 10px;
+	direction: ltr;
+}
+
+a {
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	padding: 10px 5px;
+}
+
+div {
+	text-align: center;
+	/*border: 1px solid red;*/
+}
+
+.fill {
+	display: inline-block;
+	width: 90%;
+	background: maroon;
+	margin: auto;
+}
+
+h4 {
+	width: 90%;
+	background: maroon;
+	margin-left: auto;
+}
+
+h4 {
+	display: block;
+	width: fit-content;
+	margin: 50px auto 20px; 
+}
+
+.fill:hover {
+	background: rgb(143, 31, 31);
+}
+
+
+.whats:hover {
+	text-decoration: underline;
+}
+
+
+footer {
+	width: 100%;
+	display: flex;
+	text-align: center;
+}
+
+	footer p {
+		text-align: center;
+		margin: auto;
+		font-size: 14px;
+		padding-bottom: 15px;
+		color: gray;
+	}
+
+@media (max-width: 1040px) {
+	.card {
+		width: 100%;
+	}
+
+	ul li {
+		/*border: 1px solid red;*/
+		text-align: right;
+		width: 90%;
+		margin: auto;
+	}
+
+	.cost {
+		width: 95%;
+		margin: 20px auto;
+	}
+}

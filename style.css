@@ -147,6 +147,9 @@ footer {
 	}
 
 @media (max-width: 1040px) {
+	ul{
+		font-size: 55px;
+	}
 	.card {
 		width: 100%;
 	}
@@ -156,7 +159,6 @@ footer {
 		text-align: right;
 		width: 90%;
 		margin: auto;
-		font-size: 55px;
 	}
 
 	.cost {

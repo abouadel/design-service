@@ -20,6 +20,16 @@
 	scrolling-behavior: smooth;
 }
 
+header, header a{
+	background: black;
+}
+
+.logo-container{
+	background: rgb(28, 28, 28);
+	width: fit-content;
+	margin: auto;
+}
+
 header h1, h2, h3 {
 	background: rgb(28, 28, 28);
 	padding: 35px;

@@ -147,6 +147,12 @@ footer {
 	}
 
 @media (max-width: 1040px) {
+	h2, h3, .plan-content, .fill, h4 {
+		font-size: 2em;
+	}
+
+	.cost {font-size: 1em;font-weight: bolder;}
+
 	.card {
 		width: 100%;
 	}
@@ -162,4 +168,9 @@ footer {
 		width: 95%;
 		margin: 20px auto;
 	}
+
+	a {font-size: 2em}
+	img{ width: 60px; height: 60px}
+	
+	footer p {font-size: 1.8em}
 }
